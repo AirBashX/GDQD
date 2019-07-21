@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+#radius
+{
+	width:1200px;
+	height:220px;
+}
+#radius .white
+{
+	height:20px;
+}
+#radius .radius_content
+{
+	height:180px;
+}
+#radius .radius1
+{
+	height:180px;
+	width:180px;
+	border-radius:100px;
+	float:left;
+	margin:0px 10px;
+}
+#radius img
+{
+	height:180px;
+}

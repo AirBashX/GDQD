@@ -1,0 +1,104 @@
+@charset "utf-8";
+@import url("music.css");
+/* CSS Document */
+#footer
+{
+	/*border-top:#000000 1px solid;*/
+	width:100%;
+	min-width: 1200px;
+	height:200px;
+	background-color:#EBEBEB;
+	padding-top:20px;
+	position: relative;
+	z-index:1;
+}
+#footer a
+{
+	text-decoration: none;
+	color:black;
+}
+#footer .lianjie
+{
+	width:200px;
+	height:200px;
+	float:left;
+}
+#footer .lianjie a
+{
+	margin-left:10px;
+}
+#footer .qindie
+{
+	float:right;
+	width:100px;
+	height:50px;
+	margin-right:20px;
+	text-align: center;
+}
+#footer .weibo
+{
+	float:right;
+	width:50px;
+	height:50px;
+}
+#footer a:hover
+{
+	color:#ffd100;
+}
+#footer .weibo img
+{
+	width:30px;
+}
+#footer .weixin
+{
+	width:50px;
+	height:50px;
+	float:right;
+}
+#footer .weixin img
+{
+	width:30px;
+}
+#footer .weixinimg
+{
+	width:50px;
+	height:50px;
+	display:none;
+	position:absolute;
+	text-align: center;
+	bottom:100px;
+	right:70px;
+}
+#footer .weixinimg img
+{
+	width:100px;
+}
+#footer .weixin:hover .weixinimg
+{
+	display:block;
+}
+#footer2
+{
+	min-width:1200px;
+	width:100%;
+	height:85px;
+	text-align: center;
+	marigin-top:100px;
+	color:white;
+	background-color:#232323;
+}
+#footer2 a
+{
+	text-decoration: none;
+	color:white;
+	font-size: 10px;
+	
+}
+#footer2 a:hover
+{
+	color:#ffd100;
+}
+#footer2 p:hover
+{
+	cursor:default;
+}

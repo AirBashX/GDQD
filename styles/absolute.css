@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+#absolute1 a
+{
+	display:none;
+}
+#absolute1 .abs
+{
+	
+	margin-bottom:10px;
+	background:#DDDDDD;
+	height:45px;
+	width:42.5px;
+	border-radius:5px;
+}
+#absolute1
+{
+	width:50px;
+	height:100px;
+	position:fixed;
+	right:10px;
+	top:25%;
+	z-index: 10;
+}
+#absolute1 .abs:hover
+{
+	background:#ffd100;
+}
+#absolute1 .abs:hover a
+{
+	display:block;
+	position:fixed;
+	text-decoration:none;
+	font-size:14px;
+	font-weight:700;
+	color:#000;
+	letter-spacing:2px;
+	margin-left:5px;
+	margin-top:5px;
+}
+#absolute1 img
+{
+	margin-top: 4.5px;
+}
+#absolute1 :hover img
+{
+	display:none;
+}
+#absolute2
+{
+	position:fixed;
+	right:0;
+	bottom:0;
+	z-index:10;
+}

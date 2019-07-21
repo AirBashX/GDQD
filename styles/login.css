@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+#nav/*总表*/
+{
+	list-style-type:none;
+	height:57px;
+    width:282px;
+	position:relative;
+}
+#nav li/*三个图标*/
+{
+	float:left;
+	width:60px;
+	height:56px;
+}
+#nav img
+{
+	margin-top:5px;
+	margin:13px 21.5px;/*一层网络连接的相对位置*/
+}
+#nav ul/*二级菜单*/
+{
+	display:none;
+}
+#nav li:hover ul/*指定下拉列表出现的位置*/
+{
+	display:block;
+	list-style-type:none;
+	position:relative;
+	right:30px;
+	z-index:200;
+}
+#nav ul li img
+{
+	margin:0px;
+	padding:0px;
+}
+#nav .li1 .input1
+{
+	position:absolute;	
+	top:13px;
+	right:260px;
+	height:23px;
+	border-radius: 10px;
+	display:none;
+	text-align: center;
+}
+#nav .li1:hover .input1
+{
+	display:block;
+}

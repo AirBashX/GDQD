@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+#content
+{
+	height:1800px;
+	width:1200px;
+	background-color:#F9F9F9;
+	border-radius:5px;
+}
+#content1
+{
+	height:800px;
+	width:1200px;
+	position:relative;
+}
+#content1 .c1
+{
+	height:252px;
+	width:180px;
+	float:left;
+	margin:30px;
+	position:relative;
+	
+}
+#content1 img
+{
+	width:180px;
+	height:252px;
+}
+#content1 .text
+{
+	height:252px;
+	width:180px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	text-align:center;
+	opacity: 0;
+	background:#333;
+	background:rgba(0,0,0,.7);
+}
+#content1 .c1:hover .text
+{
+	opacity: 1;
+	color:white;
+}
+#content1 .t1
+{
+	margin-top:50px;
+	height:100px;
+}
+#content1 .text2
+{
+	color:black;
+	text-align: center;
+	margin-top:5px;
+}
+#content1 .text2 a
+{
+	text-decoration:none;
+	color:#000000;
+}
+#content1 .bigtext
+{
+	width:1200px;
+	height:28px;
+	text-align: center;
+	padding-top:10px;
+}
+#content1 .bigtext a
+{
+	font-size:28px;
+	font-family:"宋体";
+}
+#content1 .display
+{
+	width:165px;
+	height:30px;
+	position: absolute;
+	bottom:30px;
+	left:519.5px;
+	text-align: center;
+	border:#000000 1px solid;
+	padding-top:7px;
+	border-radius: 50px;
+}
+#content .display a
+{
+	text-decoration: none;
+	color:black;
+}
+#content .display:hover
+{
+	background:#0084FF;
+}
